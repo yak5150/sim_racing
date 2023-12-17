@@ -1,0 +1,16 @@
+[StartTime]
+monitor stand bracket-Static 1.MFC=8s
+[SolverState]
+monitor stand bracket-Static 1.MFC=2
+[MainFrame]
+monitor stand bracket-Static 1.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPDMFAAAAAOCDAAAAAODJAAAAACEFAAAAA
+[ShowMin]
+monitor stand bracket-Static 1.MFC=No
+[SolverType]
+monitor stand bracket-Static 1.MFC=Linear Analysis
+[StudyType]
+monitor stand bracket-Static 1.MFC=0
+[StudyName]
+monitor stand bracket-Static 1.MFC=Static 1
+[Solver]
+monitor stand bracket-Static 1.MFC=Iterative
