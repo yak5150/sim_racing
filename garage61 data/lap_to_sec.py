@@ -1,5 +1,6 @@
 import pandas as pd
 from datetime import datetime
+import matplotlib.pyplot as plt
 
 sheet_name = 'Session - Race'
 excel_file_path = r'C:\Users\jakob\software\sim_racing\garage61 data\Garage 61 - IMSA Vintage Series - Race - Export - 2023-12-16-19-41-03.xlsx'
@@ -15,4 +16,8 @@ def lap_time_to_seconds(lap_time):
 
 df['total_seconds'] = df['Lap time'].apply(lap_time_to_seconds)
 
-print(df)
+plt.plot('Lap', 'total_seconds', data=df)
+plt.xlabel('Lap Number')
+plt.ylabel('Total Seconds')
+plt.grid(True)
+plt.show()
