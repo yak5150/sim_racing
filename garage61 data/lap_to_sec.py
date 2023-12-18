@@ -2,8 +2,9 @@ import pandas as pd
 from datetime import datetime
 import matplotlib.pyplot as plt
 
+
+excel_file_path = input("Enter Garage 61 excel file path:").strip('"')
 sheet_name = 'Session - Race'
-excel_file_path = r'C:\Users\jakob\software\sim_racing\garage61 data\Garage 61 - IMSA Vintage Series - Race - Export - 2023-12-16-19-41-03.xlsx'
 df = pd.read_excel(excel_file_path, sheet_name=sheet_name)
 
 def lap_time_to_seconds(lap_time):
